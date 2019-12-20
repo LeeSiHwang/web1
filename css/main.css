@@ -1,0 +1,56 @@
+main{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 10px;
+}
+main>div.indexMainHeader{
+    width: 100%; height: 300px;
+    margin-top: 10px;
+    border: 1px solid red;
+    position: relative;
+}
+main>div>.introHerz{
+    width: calc(50% - 5px); height: 290px;
+    margin-top: 10px;
+    border: 1px solid red;
+    float: left;
+}
+main>div>.tips{
+    width: calc(50% - 5px); height: 290px;
+    margin-top: 10px;
+    border: 1px solid red;
+    position: absolute;
+    right: 0;
+    clear: both;
+}
+main>div.doggyDiary{
+    width: 100%; height: 550px;
+    margin-top: 10px;
+    border: 1px solid red;
+    position: relative;
+}
+main>div.doggyDiary>div:nth-child(1){
+    width: calc(50% - 155px); height: 300px;
+    border: 1px solid red;
+    float: left;
+}
+main>div.doggyDiary>div:nth-child(2){
+    width: auto; height: 550px;
+    border: 1px solid red;
+}
+main>div.catDiary{
+    width: 100%; height: 550px;
+    margin-top: 10px;
+    border: 1px solid red;
+    position: relative;
+}
+main>div.catDiary>div:nth-child(1){
+    width: calc(50% - 155px); height: 300px;
+    border: 1px solid red;
+    float: left;
+}
+main>div.catDiary>div:nth-child(2){
+    width: auto; height: 550px;
+    border: 1px solid red;
+}
